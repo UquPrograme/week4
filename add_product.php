@@ -113,18 +113,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container position-relative d-flex align-items-center justify-content-between">
+<header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.php" class="logo d-flex align-items-center me-auto me-xl-0">
-        <h1 class="sitename" >Yummy</h1>
-      </a>
+            <a href="index.php" class="logo d-flex align-items-center me-auto me-xl-0">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="assets/img/logo.png" alt=""> -->
+                <h1 class="sitename">Yummy</h1>
+                <span>.</span>
+            </a>
 
-      <nav id="navmenu" class="navmenu">
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-    </div>
-  </header>
+            <nav id="navmenu" class="navmenu">
+
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" href="edit.php">back</a>
+
+        </div>
+    </header>
 
   <main class="main">
     <div class="container">
